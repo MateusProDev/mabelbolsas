@@ -35,7 +35,7 @@ const NavBar = ({ cart, total, addToCart, removeFromCart }) => {
     <nav className={`navbar ${isMenuOpen ? "open" : ""}`}>
       <div className="logo-container">
         <img
-          src="./img/Logo.png"
+          src="./img/logo.png"
           alt="Logo"
           className="logo"
           onClick={() => navigate("/")}
@@ -65,7 +65,7 @@ const NavBar = ({ cart, total, addToCart, removeFromCart }) => {
         </div>
       </ul>
       <div className="boxCar" onClick={handleCartToggle}>
-        <img src="./img/ShoppingBag.png" alt="Cart" className="cart-icon" />
+        <img src="./img/Shopaholic.png" alt="Cart" className="cart-icon" />
       </div>
       <section className={`carinho_compras ${isCartOpen ? "open" : ""}`}>
         <h2 id="titleCar">Sacola</h2>
