@@ -35,7 +35,7 @@ const NavBar = ({ cart, total, addToCart, removeFromCart }) => {
     <nav className={`navbar ${isMenuOpen ? "open" : ""}`}>
       <div className="logo-container">
         <img
-          src="/logo.png"
+          src="./img/logo.png"
           alt="Logo"
           className="logo"
           onClick={() => navigate("/")}
