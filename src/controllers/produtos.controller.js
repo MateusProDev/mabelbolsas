@@ -41,7 +41,7 @@ async function atualizar(req, res) {
 }
 
 async function deletar(req, res) {
-  const { id } = req.params;
+  const { id } = req.params; 
 
   await db.query(
     `
