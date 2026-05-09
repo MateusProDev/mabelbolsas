@@ -1,61 +1,32 @@
 {
-  "name": "mabelfood",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "bootstrap": "^5.3.2",
-    "json-server": "^0.17.0",
-    "mongodb": "^6.6.2",
-    "mongoose": "^8.4.0",
-    "react": "^18.2.0",
-    "react-bootstrap": "^2.10.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^5.2.1",
-    "react-router-dom": "^6.22.0",
-    "react-scripts": "^5.0.1",
-    "react-slick": "^0.30.1",
-    "slick-carousel": "^1.8.1",
-    "web-vitals": "^2.1.4"
-  },
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "server": "json-server --watch data/db.json"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateusProDev/mabelbolsas.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MateusProDev/mabelbolsas/issues"
+  },
+  "homepage": "https://github.com/MateusProDev/mabelbolsas#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pg": "^8.20.0"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@babel/plugin-transform-private-property-in-object": "^7.23.4"
-  },
-  "babel": {
-    "presets": [
-      "@babel/preset-env",
-      "@babel/preset-react"
-    ],
-    "plugins": [
-      "@babel/plugin-transform-private-property-in-object"
-    ]
+    "nodemon": "^3.1.14"
   }
 }
